@@ -1,3 +1,15 @@
+const popmotion = require('popmotion');
+
+require('./useless');
+
+const {
+  styler,
+  spring,
+  listen,
+  pointer,
+  value
+} = popmotion;
+
 // code taken from one of the examples on popmotion.io
 const ball = document.querySelector(".box");
 const divStyler = popmotion.styler(ball);
